@@ -1,0 +1,60 @@
+body{
+    background-image: url(./media/background.jpg);
+    margin: 1% 15% 10% 17%;
+    background-position: center;
+    background-size: cover;
+}
+/* Logo e titolo pagina */
+.contenitore{
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 2%;
+    justify-content: center;
+}
+.contenitore-testo{
+    margin: 50px;
+}
+header{
+    margin-top: 60px;
+}
+.logo{
+    width: 180px;
+    margin: auto;
+
+}
+.Testo-sotto-logo{
+    font-size: 20px;
+    color: limegreen;
+    margin-bottom: 1px;
+}
+/* Nav Bar */
+.Nav-Bar{
+    background-color: lime;
+    padding: 7px;
+}
+/* Monopattini */
+main{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.Batteria1{
+    background-color: rgb(230, 189, 145);
+    width: 35%;
+}
+.Batteria2{
+    background-color: rgb(29, 183, 29);
+    width: 60%;
+}
+.Batteria3{
+    background-color: rgb(158, 67, 67);
+    width: 20%;
+}
+/* Gruppi */
+.Batteria1, .Batteria2, .Batteria3{
+    height: 25px;
+}
+.logo, .Nav-Bar, .Testo-sotto-logo{
+    display: flex;
+    justify-content: center;
+}
